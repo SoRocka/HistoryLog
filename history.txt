@@ -1,1 +1,1 @@
-Size of /home/soroka/.bash_history = 2000 bytes.
+Size of /root/.bash_history = 500.

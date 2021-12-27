@@ -1,2 +1,4 @@
 #!/bin/bash
-echo "Size of $HISTFILE = $HISTFILESIZE bytes." | tee history.txt
+HISTFILE=~/.bash_history
+set -o history
+echo "Size of $HISTFILE = $HISTFILESIZE." | tee history.txt
